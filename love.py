@@ -1,0 +1,23 @@
+import turtle
+def gxy():
+    for i in range(200):
+        turtle.right(1)
+        turtle.forward(1)
+turtle.setup(400,300)
+turtle.color('green','red')
+turtle.pensize(2)
+turtle.speed(60)
+turtle.goto(0,-100)
+turtle.begin_fill()
+turtle.left(140)
+turtle.forward(112)
+gxy()
+turtle.left(120)
+gxy()
+turtle.forward(112)
+turtle.end_fill()
+turtle.up()
+turtle.seth(180)
+turtle.fd(100)
+turtle.write("i love python")
+turtle.hideturtle()
